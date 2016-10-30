@@ -21,10 +21,18 @@
 <body>
     <header>
         <nav>
-            <div class="navbar-inverse">
+            <div class="navbar navbar-inverse navbar-static-top">
                 <div class="container">
-                    <a href="index.html" class="navbar-brand">Blasting Off With Bootstrap</a>
-                    <ul class="nav navbar-nav navbar-right">
+                    <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand">Blasting Off With Bootstrap</a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                           <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
                         <li><a href="tickets.html">Tickets</a></li>
                         <li><a href="station.html">Stations</a></li>
                         <li><a href="about.html" data-toggle="dropdown" data-target="#">About <span class="caret"></span></a>
@@ -45,7 +53,7 @@
     </header>
     <section class="main">
         <div class="container">
-            <div class="row well well-lg">
+            <div class="row jumbotron">
                 <div class="col-sm-12 col-md-6">
                     <h2>The Fastest Way to Space</h2>
                     <p class="lead">Make your way to space in our rocket, elevator or transporter.</p>
