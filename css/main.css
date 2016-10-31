@@ -9,8 +9,24 @@ body {
     /* Margin bottom by footer height */
     margin-bottom: 200px;
     font-family: "Rubik", "Helvetica Neue", "san-serif";
-    background-color: aliceblue;
+    background-color: #e7f0f8;
     color: #4b5d62;
+}
+
+header { 
+    box-shadow:  0px 3px 5px #0d5976;
+}
+
+section {
+    padding-bottom: 50px;
+    word-spacing: 4px;
+    font-size: 16px;
+}
+
+
+a:hover, .a:focus{
+    text-decoration: none;
+	color: #fff;
 }
 
 /*-------------- container ------------- */
@@ -37,12 +53,16 @@ body {
     height: 200px;
     background-color: #5ca070;
     padding-top: 20px;
-    font-weight: 200;
     color: aliceblue;
 }
 
 .footer a {
+    text-decoration: none;
 	color: #044e8e;
+}
+
+.footer a:hover {
+    color: white;
 }
 
 /*-------------- buttons ------------- */
@@ -79,9 +99,6 @@ body {
     padding: 30px 15px;
 }
 
-a:hover, .a:focus{
-	color:aliceblue;
-}
 
 .navbar .nav {
     font: #fff;
@@ -137,3 +154,7 @@ a:hover, .a:focus{
 
 
 
+
+ .about .fa-rocket {
+  font-size: 64px;  
+}
