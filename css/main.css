@@ -1,3 +1,139 @@
-body {
-    //font-family: "Helvetica Neue", "san-serif";
+/* ------------ base --------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
 }
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 200px;
+    font-family: "Rubik", "Helvetica Neue", "san-serif";
+    background-color: aliceblue;
+    color: #4b5d62;
+}
+
+/*-------------- container ------------- */
+
+
+.container {
+	max-width: 960px;
+}
+
+/*-------------- jumbotron ------------- */
+
+.jumbotron {
+	background-color: aliceblue;
+    border: 2px solid #0d5976;
+}
+
+/*--------------Sticky footer styles ------------- */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 200px;
+    background-color: #5ca070;
+    padding-top: 20px;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+.footer a {
+	color: #044e8e;
+}
+
+/*-------------- buttons ------------- */
+
+
+.btn-primary {
+	background-color: #0d5976;
+    border: 0px solid #0d5976;
+}
+
+/*-------------- navigation ------------- */
+
+.navbar {
+    background-color: #0d5976;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #6ac3c3;
+}
+
+.navbar {
+    box-shadow: 2px 2px 10px #fff;
+	min-height: 80px;
+}
+
+.navbar-brand {
+    color: #fff;
+	font-size: 20px;
+    padding: 30px 15px;
+}
+
+a:hover, .a:focus{
+	color:aliceblue;
+}
+
+.navbar .nav {
+    font: #fff;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.navbar .nav a{
+	color:aliceblue;
+}
+
+
+.nav>li>a:focus, .nav>li>a:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #5ea2a2;
+}
+
+
+.dropdown-menu {
+    background-color: #0d5976;
+}
+
+.navbar-toggle {
+	padding: 25px 15px;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar{
+    background-color: aliceblue;
+    width: 30px;
+}
+
+/* ------------ others --------------*/
+
+
+.featured .glyphicon{
+	font-size: 50px;
+    color: #3a6572;
+}
+
+
+@media only screen and (max-width: 790px) {
+    body {
+        margin-bottom: 400px;
+    }
+    .footer {
+        height: 400px;
+    }
+}
+
+
+
+
+
